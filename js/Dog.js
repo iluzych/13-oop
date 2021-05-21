@@ -1,4 +1,4 @@
-class Dog {
+class Cat {
     constructor(name, fur) {
         this.name = name;
         this.furColor = fur;
@@ -8,7 +8,7 @@ class Dog {
     }
 
     voice() {
-        console.log(`${this.name}: au au!! (${++this.voiceCount})`);
+        console.log(`${this.name}: miau miau!! (${++this.voiceCount})`);
     }
 }
 
