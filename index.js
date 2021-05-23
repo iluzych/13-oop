@@ -1,4 +1,3 @@
-  
 const Dog = require('./js/Dog');
 const Cat = require('./js/Cat');
 const Rabbit = require('./js/Rabbit');

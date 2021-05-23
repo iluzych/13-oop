@@ -1,14 +1,9 @@
-class Cat {
-    constructor(name, fur) {
-        this.name = name;
-        this.furColor = fur;
-        this.legsCount = 4;
-        this.hasTale = true;
-        this.voiceCount = 0;
-    }
+const Pet = require('./Pet');
 
-    voice() {
-        console.log(`${this.name}: miau miau!! (${++this.voiceCount})`);
+class Dog extends Pet {
+    constructor(name, fur) {
+        super(name, fur);
+        this.sound = 'au au';
     }
 }
 
